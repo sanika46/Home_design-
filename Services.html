@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+  /* Floating buttons style */
+  .floating-btn {
+    position: fixed;
+    z-index: 999;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #25d366;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    transition: transform 0.2s ease-in-out;
+  }
+  .floating-btn:hover {
+    transform: scale(1.1);
+  }
+
+  /* WhatsApp button */
+  .whatsapp-btn {
+    right: 20px;
+    bottom: 20px;
+  }
+
+  /* Phone button */
+  .phone-btn {
+    left: 20px;
+    bottom: 20px;
+  }
+</style>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Our Services</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Phone Button -->
+<a href="tel:+918669061819" class="floating-btn phone-btn">
+  <i class="fas fa-phone"></i>
+</a>
+
+<!-- WhatsApp Button -->
+<a href="https://wa.me/+918669061819" target="_blank" class="floating-btn whatsapp-btn">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">Design Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+         <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="Services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Page Header -->
+<section class="py-5 bg-dark text-white text-center">
+  <div class="container">
+    <h1 class="display-5 fw-bold">Our Services</h1>
+    <p class="lead">We bring your spaces to life through design, creativity, and precision.</p>
+  </div>
+</section>
+
+<!-- Services Section -->
+<div class="container my-5">
+  <div class="row">
+    <!-- Service 1 -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 shadow-sm service-card">
+        <img src="s1.jpg" class="card-img-top" alt="Interior Design">
+        <div class="card-body">
+          <h5 class="card-title">Interior Design</h5>
+          <p class="card-text">Elegant and functional interiors tailored to your taste.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Service 2 -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 shadow-sm service-card">
+        <img src="s_22.jpg" class="card-img-top" alt="3D Floor Planning">
+        <div class="card-body">
+          <h5 class="card-title">3D Floor Planning</h5>
+          <p class="card-text">Visualize your dream home before it's built with 3D layouts.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Service 3 -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 shadow-sm service-card">
+        <img src="s3.jpg" class="card-img-top" alt="Architecture Consultation">
+        <div class="card-body">
+          <h5 class="card-title">Architecture Consultation</h5>
+          <p class="card-text">Get expert guidance from professional architects.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Service 4 -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 shadow-sm service-card">
+        <img src="s4.jpg" class="card-img-top" alt="Renovation">
+        <div class="card-body">
+          <h5 class="card-title">Renovation</h5>
+          <p class="card-text">Give your space a fresh, modern, and practical makeover.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Service 5 -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 shadow-sm service-card">
+        <img src="s5.jpg" class="card-img-top" alt="Lighting Design">
+        <div class="card-body">
+          <h5 class="card-title">Lighting Design</h5>
+          <p class="card-text">Creative lighting ideas to transform any room’s mood.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Service 6 -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 shadow-sm service-card">
+        <img src="s6.jpg" class="card-img-top" alt="Landscape Architecture">
+        <div class="card-body">
+          <h5 class="card-title">Landscape Architecture</h5>
+          <p class="card-text">Design outdoor environments that match your lifestyle.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white pt-5 pb-3 mt-5">
+  <div class="container">
+    <div class="row">
+
+      <!-- About -->
+      <div class="col-md-3 mb-4">
+        <h5>About</h5>
+        <p>Design Home creates beautiful, functional spaces tailored to your style. We believe in innovation, quality, and timeless design.</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-2 mb-4">
+        <h5>Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="about.html" class="text-white text-decoration-none">About</a></li>
+          <li><a href="Contact.html" class="text-white text-decoration-none">Contact</a></li>
+          <li><a href="Services.html" class="text-white text-decoration-none">Services</a></li>
+          <li><a href="Projects.html" class="text-white text-decoration-none">Projects</a></li>
+          <li><a href="blog.html" class="text-white text-decoration-none">Blog</a></li>
+          <li><a href="#features" class="text-white text-decoration-none">Features</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-3 mb-4">
+        <h5>Contact</h5>
+        <p>Email: <a href="mailto:your@email.com" class="text-white">faeem@anstechnologies.in</a></p>
+        <p>Phone: +91 86690 61819</p>
+        <p>Location: Pune, India</p>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="col-md-4 mb-4">
+        <h5>Subscribe to Our Newsletter</h5>
+        <form class="d-flex">
+          <input type="email" class="form-control me-2" placeholder="Enter your email">
+          <button class="btn btn-primary" type="submit">Send</button>
+        </form>
+      </div>
+
+    </div>
+
+    <hr class="border-secondary">
+    <div class="text-center">
+      <p class="mb-0">&copy; 2025 Design Home. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+<!-- Bootstrap JS (required for navbar toggle) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

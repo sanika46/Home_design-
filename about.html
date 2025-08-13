@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+  /* Floating buttons style */
+  .floating-btn {
+    position: fixed;
+    z-index: 999;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #25d366;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    transition: transform 0.2s ease-in-out;
+  }
+  .floating-btn:hover {
+    transform: scale(1.1);
+  }
+
+  /* WhatsApp button */
+  .whatsapp-btn {
+    right: 20px;
+    bottom: 20px;
+  }
+
+  /* Phone button */
+  .phone-btn {
+    left: 20px;
+    bottom: 20px;
+  }
+</style>
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Design Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Phone Button -->
+<a href="tel:+918669061819" class="floating-btn phone-btn">
+  <i class="fas fa-phone"></i>
+</a>
+
+<!-- WhatsApp Button -->
+<a href="https://wa.me/+918669061819" target="_blank" class="floating-btn whatsapp-btn">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">Design Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+         <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="Projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="Services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- About Us Banner -->
+<section class="py-5 bg-dark text-white text-center">
+  <div class="container">
+    <h1 class="display-5 fw-bold">About Us</h1>
+    <p class="lead">Bringing creativity and functionality to every space.</p>
+  </div>
+</section>
+
+<!-- About Content Section -->
+<section class="container my-5">
+  <div class="row align-items-center">
+    <div class="col-md-6 mb-4 mb-md-0">
+      <img src="about.jpg" alt="About Design Home" class="img-fluid rounded-3 shadow" style="height: 100%; max-height: 400px; object-fit: cover; width: 100%;">
+    </div>
+    <div class="col-md-6">
+      <h2 class="fw-bold mb-3">Who We Are</h2>
+      <p>At <strong>Design Home</strong>, we’re passionate about transforming ideas into architectural realities. From contemporary interiors to timeless structures, our team of architects, designers, and engineers collaborate to create environments that are not only visually stunning but also deeply functional.</p>
+      <p>With years of experience, a strong design philosophy, and a client-first mindset, we’re your trusted partner in building better spaces — whether it’s residential, commercial, or landscape architecture.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Mission and Vision Section -->
+<section class="bg-light py-5">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-6 mb-4">
+        <h3 class="text-primary">Our Mission</h3>
+        <p>To deliver innovative and personalized design solutions that elevate everyday life while respecting nature, culture, and sustainability.</p>
+      </div>
+      <div class="col-md-6 mb-4">
+        <h3 class="text-success">Our Vision</h3>
+        <p>To become a leading name in architectural excellence by fusing creativity, technology, and client collaboration.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white pt-5 pb-3 mt-5">
+  <div class="container">
+    <div class="row">
+
+      <!-- About -->
+      <div class="col-md-3 mb-4">
+        <h5>About</h5>
+        <p>Design Home creates beautiful, functional spaces tailored to your style. We believe in innovation, quality, and timeless design.</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-2 mb-4">
+        <h5>Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="about.html" class="text-white text-decoration-none">About</a></li>
+          <li><a href="Contact.html" class="text-white text-decoration-none">Contact</a></li>
+          <li><a href="Services.html" class="text-white text-decoration-none">Services</a></li>
+          <li><a href="Projects.html" class="text-white text-decoration-none">Projects</a></li>
+          <li><a href="blog.html" class="text-white text-decoration-none">Blog</a></li>
+          <li><a href="#features" class="text-white text-decoration-none">Features</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-3 mb-4">
+        <h5>Contact</h5>
+        <p>Email: <a href="mailto:your@email.com" class="text-white">faeem@anstechnologies.in</a></p>
+        <p>Phone: +91 86690 61819</p>
+        <p>Location: Pune, India</p>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="col-md-4 mb-4">
+        <h5>Subscribe to Our Newsletter</h5>
+        <form class="d-flex">
+          <input type="email" class="form-control me-2" placeholder="Enter your email">
+          <button class="btn btn-primary" type="submit">Send</button>
+        </form>
+      </div>
+
+    </div>
+
+    <hr class="border-secondary">
+    <div class="text-center">
+      <p class="mb-0">&copy; 2025 Design Home. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

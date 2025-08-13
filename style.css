@@ -1,0 +1,58 @@
+.hero-section {
+  background: url('../h1.jpg') no-repeat center center;
+  background-size: cover;
+  background-color: black;
+  height: 100vh;
+  color: rgb(11, 9, 9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.carousel,
+.hero-slide {
+  height: 100vh;
+}
+
+.hero-slide {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+  background-color: rgba(246, 234, 234, 0.5); /* dark overlay */
+  padding: 40px;
+  border-radius: 10px;
+}
+
+/* Optional: Style for service cards */
+.service-card {
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+}
+
+.service-card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.project-card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease;
+}
+
+  
